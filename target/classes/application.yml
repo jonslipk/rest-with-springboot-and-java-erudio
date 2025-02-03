@@ -1,3 +1,19 @@
 spring:
     application:
         name: erudio
+    datasource:
+        url: jdbc:mysql://localhost:3306/rest_spring_boot?useSSL=false&allowPublicKeyRetrieval=true
+        username: root
+        password: 123456
+    jpa:
+        open-in-view: false
+        hibernate:
+            ddl-auto: none
+        show-sql: true
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    use-root-path: true
+  paths-to-match:
+  - /api/v1/**
+    

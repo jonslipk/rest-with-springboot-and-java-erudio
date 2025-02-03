@@ -1,0 +1,19 @@
+# Ignore build output directories
+/bin/
+/build/
+/target/
+
+# Ignore IDE specific files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Ignore Maven specific files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+**/target/
